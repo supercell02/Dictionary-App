@@ -1,0 +1,85 @@
+body {
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-image: url("bg.jpg");
+    font-size: 30px;
+}
+
+.navbar {
+    background-color: #AD88C6;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    font-family: "Chakra Petch", sans-serif;
+}
+
+.navbar h1 {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+#result-container {
+    margin-top: 20px;
+}
+
+.definition {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.definition:last-child {
+    border-bottom: none;
+}
+#btn {
+    background: #8400ff;
+    background-image: -webkit-linear-gradient(top, #8400ff, #c78bd6);
+    background-image: -moz-linear-gradient(top, #8400ff, #c78bd6);
+    background-image: -ms-linear-gradient(top, #8400ff, #c78bd6);
+    background-image: -o-linear-gradient(top, #8400ff, #c78bd6);
+    background-image: linear-gradient(to bottom, #8400ff, #c78bd6);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    -webkit-box-shadow: 0px 5px 5px #666666;
+    -moz-box-shadow: 0px 5px 5px #666666;
+    box-shadow: 0px 5px 5px #666666;
+    font-family: Courier New;
+    color: #ffffff;
+    font-size: 29px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+  }
+  
+  #btn:hover {
+    background: #8400ff;
+    text-decoration: none;
+  }
+  #css-input {
+    padding: 19px;
+    font-size: 43px;
+    border-width: 1px;
+    border-color: #CCCCCC;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-style: solid;
+    border-radius: 16px;
+    box-shadow: 0px 7px 9px rgba(66,66,66,.80);
+    text-shadow: 0px 0px 5px rgba(66,66,66,.75);
+}
+#css-input:focus {
+    outline:none;
+}
+#result-container{
+    padding: 20px;
+
+}
